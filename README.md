@@ -1,0 +1,1 @@
+简易的基于nonebot的minecraft wiki搜索qq机器人，默认采用bili镜像站，可手动更改为官方源
