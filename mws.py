@@ -1,14 +1,3 @@
-###############################################
-#
-#           Minecraft Wiki Searcher 
-#
-#                By Zombie_fly
-#                   (C)2020
-#
-#
-###############################################
-
-
 from nonebot import on_command, CommandSession
 from nonebot.message import unescape
 from nonebot import on_natural_language, NLPSession, IntentCommand
