@@ -48,7 +48,7 @@ def bili(msg):
 
     #判断是否有该页面
     if data==bili_null_msg:
-        print(null_msg)
+        await session.send(null_msg)
     else:
         #获取简介
         bl_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail).findall(final_res)))
