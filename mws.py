@@ -30,9 +30,9 @@ gpd_output_first = '此模式下需要数十秒的时间请求数据，请耐心
 
 null_msg = '呼喵？没有找到该条目呢'
 msg_head = '搜索结果出来了喵：'
-summary_head = '</div>\n<p><b>'
-summary_head2 = '</table>\n<p><b>'
-summary_tail = '\n</p>\n'
+summary_head = '<p><b>'
+summary_tail = '\n<p>\n<div'
+summary_tail2 = '\n</p>'
 
 
 #bili镜像
@@ -53,7 +53,7 @@ def bili(msg):
         #获取简介
         bl_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail).findall(final_res)))
         if bl_summary == '':
-            bl_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head2 + '(.*?)' + summary_tail).findall(final_res)))
+            bl_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail2).findall(final_res)))
         #获取url
         bltail_url = re.compile('/mc/(.*?)">阅读</a></li><li').findall(final_res)  
         #拼接最后消息
@@ -73,12 +73,12 @@ def gpd(msg):
     data = pattern.findall(final_res)
     
     if data==gpd_null_msg:
-        print(null_msg)
+        await session.send(null_msg)
     else:
 
         gpd_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail).findall(final_res)))
         if gpd_summary == []:
-            gpd_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head2 + '(.*?)' + summary_tail).findall(final_res)))
+            gpd_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail).findall(final_res)))
         
         gpd_rurl = re.compile('<meta property="og:url" content="(.*?)"/>').findall(final_res)  
         
