@@ -78,7 +78,7 @@ def gpd(msg):
 
         gpd_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail).findall(final_res)))
         if gpd_summary == '':
-            gpd_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail).findall(final_res)))
+            gpd_summary = re.sub(r"</?(.+?)>", "", ''.join(re.compile(summary_head + '(.*?)' + summary_tail2).findall(final_res)))
         
         gpd_rurl = re.compile('<meta property="og:url" content="(.*?)"/>').findall(final_res)  
         
