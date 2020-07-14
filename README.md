@@ -9,7 +9,7 @@ minecraft-zh.gamepedia.com<br>
       使用语法：``wiki [搜索内容]``<br>
       实例：``wiki 末影龙``<br>
 ### bili镜像：
-wiki.biligame.com/mc
+wiki.biligame.com/mc<br>
 使用语法：``gpwiki [搜索内容]``<br>
       举例：``gpwiki 末影龙``<br>
 
