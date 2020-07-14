@@ -1,10 +1,3 @@
----
-title: AXbot——一个正在初创阶段的qq机器人
-renderNumberedHeading: true
-grammar_cjkRuby: true
----
-
-
 # 什么是AXbot？
 AXbot是一个基于Nonebot开发的机器人，故在使用本机器人之前，你需要先安装并配置好Nonebot，及其前置配置。
 # 模块功能
