@@ -1,6 +1,6 @@
-# 什么是AXbot？
+# 如何使用AXbot？
 AXbot是一个基于Nonebot开发的机器人，故在使用本机器人之前，你需要先安装并配置好Nonebot，及其前置配置。
-随后将这些python文件放入你的``plugins``文件夹中，注意，此时你的放置nonebot主程序的文件夹接结构应该大致如下<br>
+随后将这些python文件放入你的``plugins``文件夹中，注意，此时你的放置nonebot主程序的文件夹结构应该大致如下<br>
 nonebot  
 &#160;├── awesome  
 &#160;&#160;│└── plugins  
