@@ -1,13 +1,14 @@
 # 什么是AXbot？
 AXbot是一个基于Nonebot开发的机器人，故在使用本机器人之前，你需要先安装并配置好Nonebot，及其前置配置。
 随后将这些python文件放入你的``plugins``文件夹中，注意，此时你的放置nonebot主程序的文件夹接结构应该大致如下<br>
-nonebot
-├── awesome
-│   └── plugins
-│       ├── findv.py
-│       ├── moe.py
-├── bot.py
-└── config.py
+<br>
+nonebot<br>
+├── awesome<br>
+│   └── plugins<br>
+│       ├── mws.py<br>
+│       ├── moe.py<br>
+├── bot.py<br>
+└── config.py<br>
 # 模块功能
 ## mws.py:
   <中文Minecraft Wiki搜索引擎模块><br>
