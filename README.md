@@ -4,9 +4,9 @@ AXbot是一个基于Nonebot开发的机器人，故在使用本机器人之前�
 <br>
 nonebot<br>
 ├── awesome<br>
-│    └── plugins<br>
-|       ├── mws.py<br>
-│       └── moe.py<br>
+│				└── plugins<br>
+|				├── mws.py<br>
+│				└── moe.py<br>
 ├── bot.py<br>
 └── config.py<br>
 # 模块功能
