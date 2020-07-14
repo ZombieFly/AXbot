@@ -6,7 +6,7 @@ nonebot<br>
 ├── awesome<br>
 │   └── plugins<br>
 │       ├── mws.py<br>
-│       ├── moe.py<br>
+│       └── moe.py<br>
 ├── bot.py<br>
 └── config.py<br>
 # 模块功能
