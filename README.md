@@ -14,12 +14,12 @@ nonebot
  	采用双源搜索：<br>
 ### 源站点：
 minecraft-zh.gamepedia.com<br>
-      使用语法：``wiki [搜索内容]``<br>
-      实例：``wiki 末影龙``<br>
+      使用语法：``gpwiki [搜索内容]``<br>
+      实例：``gpwiki 末影龙``<br>
 ### bili镜像：
 wiki.biligame.com/mc<br>
-使用语法：``gpwiki [搜索内容]``<br>
-      举例：``gpwiki 末影龙``<br>
+使用语法：``wiki [搜索内容]``<br>
+      举例：``wiki 末影龙``<br>
 
 ## moe.py:
   <萌娘百科搜索引擎模块><br>
