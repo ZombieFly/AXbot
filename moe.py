@@ -125,5 +125,5 @@ async def moe(session: CommandSession):
 @moe.args_parser
 async def _(session: CommandSession):
     # 去掉消息首尾的空白符
-    stripped_arg = session.current_arg_text.strip()
+#    stripped_arg = session.current_arg_text.strip()
     session.state[session.current_key] = stripped_arg
